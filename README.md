@@ -24,6 +24,21 @@
 
 + Responsive
 
+- Instruction: 
+Please follow all bellow steps:
+
+composer update
+rename .env.example with .env
+configure database on .env file
+create a new database with name employees_db
+create new tables with: php artisan migrate
+create default user for system with: php artisan db:seed
+php artisan key:generate
+Execute: php artisan config:clear
+Execute: php artisan serve
+default usename: admin@gmail.com
+default password: admin
+
 ## Guide Video
 https://www.youtube.com/watch?v=Jbt5bEgv_QM
 
